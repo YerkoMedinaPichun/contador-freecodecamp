@@ -1,0 +1,21 @@
+button {
+  width: 25rem;
+  height: 8rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  margin: 0.5rem;
+  font-size: 3rem;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.button-click {
+  background-color: #5591da;
+}
+.button-reset {
+  background: #e45660;
+}
